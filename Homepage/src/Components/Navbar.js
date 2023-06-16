@@ -45,8 +45,8 @@ const Navbar = () => {
             <a href="">
                 <BsCart2 className="navbar-cart-icon" />
             </a>
-            <button className="primary-button">
-                Bookings Now
+            <button className="primary-button" style={{ backgroundColor: 'dodgerblue'}}>
+                Sign In
             </button>
         </div>
             <div className="navbar-menu-container">
@@ -63,7 +63,6 @@ const Navbar = () => {
                         <ListItem key={item.text} disablePadding >
                             <ListItemButton>
                             <ListItemIcon>{item.icon}</ListItemIcon>
-                            <ListItemText primary={item.text}/>
                             </ListItemButton>
                         </ListItem>
                     ))}
