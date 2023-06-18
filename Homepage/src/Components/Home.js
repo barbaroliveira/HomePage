@@ -13,9 +13,9 @@ const Home = () => {
                 <img src={bannerbackground} alt="" />
             </div>
         <div className="home-text-section">
-            <h1 className="primary-heading">
+            <h3 className="primary-heading">
                 Your main Value Proposition
-            </h1>
+            </h3>
             <p className="primary-text">
                 Supporting subtext
             </p>
