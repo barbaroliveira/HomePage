@@ -16,4 +16,9 @@ In this section we are going to make a step-by-step of the implementation done i
 This was used to create the boilerplate of the app
 
 ### Components
-To create this page was used a component that represents the different parts of the landing page
+To create this page we create several components that represents each part of the Landing page presented:
+ - NavBar component
+ - Home Component
+ - Work
+ - Contact
+ - Footer
