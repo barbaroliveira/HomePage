@@ -40,12 +40,12 @@ const Navbar = () => {
         <img src={Logo} alt="" />
         </div>
         <div className="navbar-links-container" >
-            <a href="">Home</a>
-            <a href="">Work</a>
+            <a href="" style={{ color: '#FFFFFF'}}>Home</a>
+            <a href="" style={{ color: '#FFFFFF'}}>Work</a>
             <a href="">
-                <BsCart2 className="navbar-cart-icon" />
+                <BsCart2 className="navbar-cart-icon" style={{ color: '#FFFFFF'}}/>
             </a>
-            <button className="primary-button" style={{ backgroundColor: 'dodgerblue'}}>
+            <button className="primary-button" style={{ backgroundColor: '#0387CD', color: '#FFFFFF'}}>
                 Sign In
             </button>
         </div>

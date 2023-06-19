@@ -2,7 +2,7 @@ import React from "react";
 import PicMeals from "../Assets/pick-meals-image.png";
 import ChooseMeals from "../Assets/choose-image.png";
 import DeliveryMeals from "../Assets/delivery-image.png";
-
+<link rel="stylesheet" href="Work.css"/>
 
 const Work = () => {
         const workInfoData = [
@@ -25,7 +25,7 @@ const Work = () => {
     return (
         <div className="work-section-wrapper">
             <div className="work-section-top">
-                <p className="primary-subheading">Work</p>
+                <p className="primary-subheading" style={{color: '#233772'}}>Work</p>
                 <h1 className="primary-heading">Hook to scroll</h1>
                 <p className="primary-text">
                 Lorem ipsum dolor sit amet consectetur. Non tincidunt 

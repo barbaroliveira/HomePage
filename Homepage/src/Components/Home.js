@@ -19,7 +19,7 @@ const Home = () => {
             <p className="primary-text">
                 Supporting subtext
             </p>
-            <button className="secondary-button" style={{ backgroundColor: 'steelblue'}}>
+            <button className="secondary-button" style={{ backgroundColor: '#87D5E9'}}>
                 Call to Action <FiArrowRight />
             </button>
             </div>
