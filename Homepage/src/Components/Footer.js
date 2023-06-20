@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../Assets/LOGO.svg";
 import { BsTwitter, BsYoutube } from "react-icons/bs";
-import {SiLinkedin, siLinkedin} from "react-icons/si";
+import {SiLinkedin } from "react-icons/si";
 import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
